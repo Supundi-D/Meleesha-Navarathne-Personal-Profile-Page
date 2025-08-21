@@ -57,6 +57,7 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
       transition: transform 0.2s;
+      text-align: center;
     }
 
     .card:hover {
@@ -69,33 +70,34 @@
       font-size: 1.6rem;
     }
 
-    ul {
+    /* Education List */
+    .card ul {
+      list-style: none;
+      padding: 0;
       margin: 0;
-      padding-left: 18px;
     }
 
-    /* Contact + Social */
-    .contact p {
-      margin: 6px 0;
+    .card ul li {
+      margin: 8px 0;
     }
 
+    /* WhatsApp Button */
     .contact-btn {
       display: inline-block;
-      margin-top: 15px;
-      padding: 12px 22px;
-      background: #25D366;
-      /* WhatsApp green */
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #25D366; /* WhatsApp green */
       color: #fff;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1rem;
+      font-size: 1.1rem;
       transition: background 0.3s, transform 0.2s;
     }
 
     .contact-btn i {
       margin-right: 8px;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     .contact-btn:hover {
@@ -103,15 +105,15 @@
       transform: translateY(-2px);
     }
 
-
+    /* Social Icons */
     .social-icons {
-      margin-top: 15px;
+      margin-top: 20px;
     }
 
     .social-icons a {
       color: #d94f78;
-      margin: 0 10px;
-      font-size: 1.4rem;
+      margin: 0 12px;
+      font-size: 1.5rem;
       transition: color 0.3s;
     }
 
@@ -119,12 +121,18 @@
       color: #a93356;
     }
 
+    /* Footer */
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 25px 15px;
       background: #ffe6eb;
       color: #333;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
     }
   </style>
 </head>
@@ -181,8 +189,10 @@
 
   </div>
 
+  <!-- Footer -->
   <footer>
-    © 2025 Meleesha Navarathne | Designed by Supundi-D
+    <p>© 2025 Meleesha Navarathne</p>
+    <p>Designed by Supundi-D</p>
   </footer>
 
 </body>
