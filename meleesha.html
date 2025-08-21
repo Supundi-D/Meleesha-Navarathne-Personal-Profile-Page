@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +29,7 @@
       border-radius: 50%;
       object-fit: cover;
       border: 5px solid #fff;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 
     .hero h1 {
@@ -54,7 +55,7 @@
       padding: 25px;
       margin-bottom: 25px;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
       transition: transform 0.2s;
     }
 
@@ -77,6 +78,31 @@
     .contact p {
       margin: 6px 0;
     }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: #25D366;
+      /* WhatsApp green */
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .contact-btn i {
+      margin-right: 8px;
+      font-size: 1.2rem;
+    }
+
+    .contact-btn:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+    }
+
 
     .social-icons {
       margin-top: 15px;
@@ -102,6 +128,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Profile Section -->
@@ -113,10 +140,11 @@
 
   <!-- Content -->
   <div class="container">
-    
+
     <div class="card">
       <h2>About Me</h2>
-      <p>I am a passionate medical student dedicated to lifelong learning, patient care, and medical research. My career goal is to specialize in cardiology and contribute to healthcare innovation and community wellness.</p>
+      <p>I am a passionate medical student dedicated to lifelong learning, patient care, and medical research. My career
+        goal is to specialize in cardiology and contribute to healthcare innovation and community wellness.</p>
     </div>
 
     <div class="card">
@@ -129,13 +157,21 @@
 
     <div class="card">
       <h2>Research & Projects</h2>
-      <p>Currently engaged in research on public health and preventive medicine. I have also co-authored articles in medical student journals and participated in community health awareness programs.</p>
+      <p>Currently engaged in research on public health and preventive medicine. I have also co-authored articles in
+        medical student journals and participated in community health awareness programs.</p>
     </div>
 
     <div class="card contact">
       <h2>Contact</h2>
       <p><strong>Email:</strong> meleeshan@gmail.com</p>
       <p><strong>Phone:</strong> +94 78 486 2085</p>
+
+      <!-- WhatsApp Contact Button -->
+      <a href="https://wa.me/94784862085?text=Hello%20Meleesha,%20I%20would%20like%20to%20get%20medical%20advice."
+        class="contact-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> Contact Me for Medical Advice
+      </a>
+
       <div class="social-icons">
         <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.facebook.com/meleesha.navarathne"><i class="fab fa-facebook"></i></a>
@@ -150,4 +186,5 @@
   </footer>
 
 </body>
+
 </html>
